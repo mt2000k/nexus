@@ -1,0 +1,187 @@
+2026-03-12T15:04:15Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-03-12T15:04:15Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-03-12T15:04:20Z INF +--------------------------------------------------------------------------------------------+
+2026-03-12T15:04:20Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-03-12T15:04:20Z INF |  https://perception-achievements-kingdom-celtic.trycloudflare.com                          |
+2026-03-12T15:04:20Z INF +--------------------------------------------------------------------------------------------+
+2026-03-12T15:04:20Z INF Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp]
+2026-03-12T15:04:20Z INF Version 2026.3.0 (Checksum 59b12880b24af581cf5b1013db601c7d843b9b097e9c78aa5957c7f39f741885)
+2026-03-12T15:04:20Z INF GOOS: windows, GOVersion: go1.24.13, GoArch: amd64
+2026-03-12T15:04:20Z INF Settings: map[ha-connections:1 protocol:quic url:http://127.0.0.1:3001]
+2026-03-12T15:04:20Z INF cloudflared will not automatically update on Windows systems.
+2026-03-12T15:04:20Z INF Generated Connector ID: dc5cd5f6-80bc-4f32-b224-5691cb4983d1
+2026-03-12T15:04:20Z INF Initial protocol quic
+2026-03-12T15:04:20Z INF ICMP proxy will use 10.138.195.232 as source for IPv4
+2026-03-12T15:04:20Z INF ICMP proxy will use 2409:40d7:1039:9ca9:7349:9dd8:6053:85c1 in zone Wi-Fi as source for IPv6
+2026-03-12T15:04:20Z INF cloudflared does not support loading the system root certificate pool on Windows. Please use --origin-ca-pool <PATH> to specify the path to the certificate pool
+2026-03-12T15:04:20Z INF ICMP proxy will use 10.138.195.232 as source for IPv4
+2026-03-12T15:04:20Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:04:20Z INF ICMP proxy will use 2409:40d7:1039:9ca9:7349:9dd8:6053:85c1 in zone Wi-Fi as source for IPv6
+2026-03-12T15:04:20Z INF Starting metrics server on 127.0.0.1:20242/metrics
+2026-03-12T15:04:21Z INF Registered tunnel connection connIndex=0 connection=17d96cc2-ad88-45a8-8fab-d1a6ed72945c event=0 ip=198.41.200.53 location=del05 protocol=quic
+2026-03-12T15:05:44Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:05:44Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:05:44Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:05:44Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:05:44Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:05:45Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:05:46Z INF Registered tunnel connection connIndex=0 connection=35fd73d9-6462-487f-a1dd-f8ee7399ee9d event=0 ip=198.41.200.53 location=del05 protocol=quic
+2026-03-12T15:12:58Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:12:58Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:12:58Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:12:58Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:12:58Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:13:00Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:13:03Z INF Registered tunnel connection connIndex=0 connection=e9f52543-bd7f-4593-8b98-48a68ccc3eb9 event=0 ip=198.41.200.53 location=del05 protocol=quic
+2026-03-12T15:17:46Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:17:46Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:17:46Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:17:46Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:17:46Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:17:46Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:17:51Z INF Registered tunnel connection connIndex=0 connection=0ffebd4e-ab15-455d-b1a4-f58aee9fe2ae event=0 ip=198.41.200.53 location=del05 protocol=quic
+2026-03-12T15:21:34Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:21:34Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:21:34Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:21:34Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:21:34Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:21:35Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:21:38Z INF Registered tunnel connection connIndex=0 connection=96adc903-fab6-4a44-89a9-8b9bb6923dd6 event=0 ip=198.41.200.53 location=del05 protocol=quic
+2026-03-12T15:24:20Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:24:20Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:24:20Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:24:20Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:24:20Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:24:21Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:24:26Z INF Registered tunnel connection connIndex=0 connection=73331c84-ca16-4fe6-adb8-9dc191158af1 event=0 ip=198.41.200.53 location=del05 protocol=quic
+2026-03-12T15:30:44Z ERR  error="stream 149 canceled by remote with error code 0" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:30:44Z ERR Request failed error="stream 149 canceled by remote with error code 0" connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/uploads/1773329384391-3p8dyl.png event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:06Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:06Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:06Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mxn4kl8y&sid=hKUvkHl0VsxZNTbFAAA1 event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:06Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mxn4jr7j&sid=hKUvkHl0VsxZNTbFAAA1 event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:12Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:12Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=websocket&sid=hKUvkHl0VsxZNTbFAAA1 event=0 ip=198.41.200.53 type=ws
+2026-03-12T15:41:13Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:13Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mxsw5xj7&sid=hKUvkHl0VsxZNTbFAAA1 event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:14Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:14Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mxtfl1y6 event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:15Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:15Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mxyunj0n event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:20Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:20Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=my2cr1do event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:24Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:24Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=my5ryzj1 event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:24Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:24Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mxzlusw4 event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:34Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:34Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mydloxc1 event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:39Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:39Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mybaykj1 event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:50Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:50Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=myq65tj1 event=0 ip=198.41.200.53 type=http
+2026-03-12T15:41:59Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:41:59Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=myx4j2tm event=0 ip=198.41.200.53 type=http
+2026-03-12T15:42:06Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:42:06Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mz2jpw27 event=0 ip=198.41.200.53 type=http
+2026-03-12T15:42:14Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:42:14Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mz83lq4f event=0 ip=198.41.200.53 type=http
+2026-03-12T15:42:19Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:42:19Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mzcd46cc event=0 ip=198.41.200.53 type=http
+2026-03-12T15:42:25Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:42:25Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/api/auth/me event=0 ip=198.41.200.53 type=http
+2026-03-12T15:42:25Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:42:25Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/api/auth/me event=0 ip=198.41.200.53 type=http
+2026-03-12T15:42:27Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:42:27Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/socket.io/?EIO=4&transport=polling&t=mzigbm1a event=0 ip=198.41.200.53 type=http
+2026-03-12T15:42:56Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:42:56Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:42:56Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:42:56Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:42:56Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:42:58Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:43:03Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:43:03Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.53
+2026-03-12T15:43:04Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.233
+2026-03-12T15:43:14Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: handshake did not complete in time" connIndex=0 event=0 ip=198.41.200.233
+2026-03-12T15:43:14Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.200.233
+2026-03-12T15:43:15Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:43:20Z INF Registered tunnel connection connIndex=0 connection=af013faa-9e1b-4b8f-a187-76eddfc70933 event=0 ip=198.41.200.113 location=del05 protocol=quic
+2026-03-12T15:44:37Z ERR  error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:3001
+2026-03-12T15:44:37Z ERR Request failed error="Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared: dial tcp 127.0.0.1:3001: connectex: No connection could be made because the target machine actively refused it." connIndex=0 dest=https://perception-achievements-kingdom-celtic.trycloudflare.com/api/auth/guest-login event=0 ip=198.41.200.113 type=http
+2026-03-12T15:47:36Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:47:36Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:47:36Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:47:36Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:47:36Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:47:37Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:47:41Z INF Registered tunnel connection connIndex=0 connection=454917f1-f4d2-4e5e-a699-d5268add95ee event=0 ip=198.41.200.113 location=del05 protocol=quic
+2026-03-12T15:49:23Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:49:23Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:49:23Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:49:23Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:49:23Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:49:25Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:49:35Z INF Registered tunnel connection connIndex=0 connection=1b73a1f0-2849-41b0-9e53-1f5ec02affa5 event=0 ip=198.41.200.113 location=del05 protocol=quic
+2026-03-12T15:52:42Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:52:42Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:52:42Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:52:42Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:52:42Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:52:42Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:52:52Z ERR Failed to dial a quic connection error="failed to dial to edge with quic: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:52:52Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.200.113
+2026-03-12T15:52:53Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:53:12Z ERR failed to run the datagram handler error="context canceled" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:53:12Z ERR failed to serve tunnel connection error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:53:12Z ERR Serve tunnel error error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:53:12Z INF Retrying connection in up to 8s connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:53:14Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:53:15Z INF Registered tunnel connection connIndex=0 connection=0f00cd6a-0b84-4163-a8b1-5d0743ccca98 event=0 ip=198.41.192.37 location=del02 protocol=quic
+2026-03-12T15:54:06Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:06Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:06Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:06Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:06Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:06Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:08Z INF Registered tunnel connection connIndex=0 connection=813ae649-39dd-46f7-8923-4441827e00b1 event=0 ip=198.41.192.37 location=del02 protocol=quic
+2026-03-12T15:54:18Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:18Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:18Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:18Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:18Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:18Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:33Z ERR failed to run the datagram handler error="context canceled" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:33Z ERR failed to serve tunnel connection error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:33Z ERR Serve tunnel error error="control stream encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:33Z INF Retrying connection in up to 4s connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:37Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:54:43Z INF Registered tunnel connection connIndex=0 connection=6b754fc1-b985-4236-90a3-be5b2766b288 event=0 ip=198.41.192.37 location=del02 protocol=quic
+2026-03-12T15:55:38Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:55:38Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:55:38Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:55:38Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:55:38Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:55:38Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:55:41Z INF Registered tunnel connection connIndex=0 connection=219b7879-05c3-4a48-b9d1-3ab7e28f67fc event=0 ip=198.41.192.37 location=del02 protocol=quic
+2026-03-12T15:56:32Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:56:32Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:56:32Z ERR failed to serve tunnel connection error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:56:32Z ERR Serve tunnel error error="datagram manager encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:56:32Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:56:33Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T15:56:36Z INF Registered tunnel connection connIndex=0 connection=27ce9ef2-1941-48e8-b9f0-d814b13ef5e6 event=0 ip=198.41.192.37 location=del02 protocol=quic
+2026-03-12T16:23:46Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:23:46Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:23:46Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:23:46Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:23:46Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:23:48Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:23:50Z INF Registered tunnel connection connIndex=0 connection=6236756b-20e2-4300-a20a-6715b6cfa0c4 event=0 ip=198.41.192.37 location=del02 protocol=quic
+2026-03-12T16:24:45Z ERR failed to accept incoming stream requests error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:24:45Z ERR failed to run the datagram handler error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:24:45Z ERR failed to serve tunnel connection error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:24:45Z ERR Serve tunnel error error="accept stream listener encountered a failure while serving" connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:24:45Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:24:46Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.37
+2026-03-12T16:24:47Z INF Registered tunnel connection connIndex=0 connection=00700645-e7bf-4975-bb8f-9c2048e1136b event=0 ip=198.41.192.37 location=del02 protocol=quic
