@@ -109,4 +109,4 @@ NexusChat is designed to be easily shared via Cloudflare tunnels.
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Developed with ❤️ by the Nexus Team.
+Developed with ❤️ by Munish Thakur.
